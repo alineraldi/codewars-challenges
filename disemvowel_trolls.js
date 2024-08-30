@@ -8,11 +8,10 @@
 
 // Note: for this kata y isn't considered a vowel.
 
-const prompt = require("prompt-sync")()
-trollEntry = prompt("Write your comment and I'll neutralize it: ")
-function disemvowelFunction(str){
-    console.log(str.replace(/[aeiouAEIOU]/g, ""));
+trollEntry = ("This website is for losers LOL!")
+function disemvowel(str){
+    return str.replace(/[aeiouAEIOU]/g, "");
 }
-
-disemvowelFunction(trollEntry)
+result = disemvowel(trollEntry)
+console.log(result)
 
