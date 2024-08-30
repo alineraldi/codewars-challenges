@@ -2,7 +2,7 @@
 
 function opposite(number) {
     return (number * -1)
-  }
+}
  
 let number = 1
 let result = opposite(number)
